@@ -1,0 +1,45 @@
+.nav-main {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.logo {
+  flex: 0.2;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-indent: 55px;
+  cursor: pointer;
+}
+.search {
+  text-align: center;
+  flex: 0.6;
+}
+.search input {
+  position: relative;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+}
+.connect {
+  flex: 0.2;
+  text-align: center;
+}
+.connect button {
+  padding: 10px;
+  border: none;
+  background-color: #1873f1;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+
+}

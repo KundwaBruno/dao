@@ -1,0 +1,118 @@
+.widgets-main {
+  width: 16vw;
+  max-height: 87vh;
+  border-radius: 10px;
+  font-family: "Roboto";
+}
+
+.widget-button {
+  width: 100px;
+  padding: 5px 0px 5px;
+  border: none;
+  background-color: #2f80ed;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.newly-listed {
+  position: relative;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: #e0edff;
+  text-align: center;
+  padding: 10px 0px 0px;
+  height: 385px;
+  overflow-y: auto;
+}
+
+.widget-button-container{
+  position: sticky;
+  width: 90%;
+  margin: auto;
+  background-color: #e0edff;
+  padding: 10px 0px 10px;
+  bottom: 0;
+}
+
+.resources {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #e0edff;
+  text-align: center;
+  padding: 10px 0px 10px;
+  height: 384px;
+  overflow-y: auto;
+}
+
+.widget-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.widget {
+  background-color: white;
+  border: 1px solid rgb(212, 212, 250);
+  border-radius: 5px;
+  width: 90%;
+  margin: auto;
+  padding: 10px 0px 0px;
+  margin-bottom: 16px;
+}
+.first {
+  display: flex;
+  align-items: center;
+}
+.first div {
+  flex: 0.5;
+}
+.widget-footer {
+  margin-top: 10px;
+  padding: 5px 0px 5px;
+  border-top: 1px solid #e0edff;
+  font-size: 13px;
+}
+.widget-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.widget-profile div {
+  width: 70px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: grey;
+}
+.widget-description {
+  text-align: justify;
+}
+.widget-description div:first-child {
+  font-weight: bold;
+  text-align: justify;
+  margin-bottom: 3px;
+}
+.widget-description div:last-child {
+  text-align: justify;
+  font-size: 13px;
+}
+
+.widget-box {
+  padding: 3px 3px 3px;
+  width: 50%;
+  background-color: #94bef6;
+  color: white;
+  font-size: 11px;
+  margin-left: 30px;
+}
+.widget-icon {
+  text-align: center;
+  font-size: 40px;
+}
+.first.resource {
+  padding: 10px 5px 10px;
+}

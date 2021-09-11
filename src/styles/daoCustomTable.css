@@ -1,0 +1,92 @@
+.table-container {
+  width: 95%;
+  margin: auto;
+}
+.search-input {
+  padding: 10px 10px 10px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: 1px solid rgb(207, 207, 207);
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.collapse {
+  display: flex;
+  padding: 20px 0px 20px;
+  min-height: 10vh;
+}
+.block-one {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block-two {
+  flex: 0.5;
+}
+.block-three {
+  flex: 0.3;
+}
+.block-one-profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(179, 179, 179);
+}
+
+.block-two-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.block-two-header div i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+.block-two-header div:first-child {
+  flex: 0.4;
+  font-size: 25px;
+}
+.block-two-header div:last-child {
+  flex: 0.3;
+  font-size: 15px;
+  color: grey;
+}
+.block-two-description {
+  width: 75%;
+  text-align: justify;
+}
+.block-three-members {
+  max-height: 145px;
+  overflow-y: auto;
+}
+
+.block-three-member-header {
+  font-size: 20px;
+  color: grey;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.block-three-proposal {
+  margin-bottom: 20px;
+  border-left: 3px solid #2f80ed;
+  padding-left: 10px;
+}
+.block-three-proposal-profile {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+.block-three-proposal-profile div:first-child {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.block-three-proposal-profile div:last-child {
+  font-size: 13px;
+  color: rgb(138, 136, 136);
+}
